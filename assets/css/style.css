@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'Lobster';
-	src: URL('../font/Lobster-Regular.ttf') format('truetype');
+	src: URL('/font/Lobster-Regular.ttf') format('truetype');
 }
 body {
-	background-image: url("../images/bg.jpeg");
+	background-image: url("/images/bg.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
