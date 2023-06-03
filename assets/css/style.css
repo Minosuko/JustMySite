@@ -1,0 +1,148 @@
+@font-face {
+	font-family: 'Lobster';
+	src: URL('../font/Lobster-Regular.ttf') format('truetype');
+}
+body {
+	background-image: url("../images/bg.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Lobster';
+}
+
+.h1-sized{
+	font-size: 220%;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.h2-sized{
+	font-size: 150%;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.h3-sized{
+	font-size: 110%;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.h4-sized{
+	font-size: 90%;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.button {
+	background-color: #3399ff;
+	border: none;
+	color: white;
+	padding: 10px 27px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.profile_image_circle {
+	
+	border: 5px dashed #ffffff;
+	border-radius: 50%;
+	width: 300px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.profile_image_circle img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.social_media_image_circle {
+	border: 0px solid black;
+	border-radius: 50%;
+	width: 15%;
+	height: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.social_media_image_circle img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.social_media_image_circle .link {
+	font-size: 110%;
+	text-decoration: none;
+	text-align: center;
+}
+
+.social_media_image_circle .twitter {
+	color: #1cb7eb;
+}
+
+.social_media_image_circle .facebook {
+	color: #1877f2;
+}
+
+.social_media_image_circle .telegram {
+	color: #3db9e6;
+}
+
+.social_media_image_circle .zalo {
+	color: #0180c7;
+}
+
+.social_media_image_circle .discord {
+	color: #8c9eff;
+}
+
+.social_media_image_circle .osu {
+	color: #e866a0;
+}
+
+.div-box{
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: white;
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.div-hidden-box{
+	display: none;
+}
+
+.inline-box div{
+	display: inline-block;
+	margin: 30px;
+}
+
+.link {
+	text-decoration: none;
+	color: #1877f2;
+}
+
+.reveal{
+	position: relative;
+	transform: translateX(-150px);
+	opacity: 0;
+	transition: 2s all ease;
+}
+
+.reveal.active{
+	transform: translateX(0);
+	opacity: 1;
+}

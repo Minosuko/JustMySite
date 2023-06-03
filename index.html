@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- OpenSource: https://github.com/Minosuko/JustMySite -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" type="image/x-icon" href="./favicon.ico">
+		<meta name="author" content="Minosuko">
+		<meta name="description" content="Just Mino home page :3">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Mino Home Page">
+		<meta property="og:description" content="Just Mino home page :3">
+		<meta property="og:url" content="https://minosuko.ga/">
+		<meta property="og:image" content="https://minosuko.ga/assets/images/avatar.jpg">
+		<meta property="og:image:secure_url" content="https://minosuko.ga/assets/images/avatar.jpg">
+		<title>Mino Home Page</title>
+		<link rel="stylesheet" href="./assets/css/style.css">
+	</head>
+	<body onload="reveal()">
+		<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+		<div align="center">
+			<div class="profile_image_circle reveal" onclick="show_artist()">
+				<img src="./assets/images/avatar.jpg" alt="Artist: FB - Quách Thế Long (Kasichi)">
+			</div>
+			<div class="div-box div-hidden-box" id="div-artist-box">
+				<p class="h2-sized">Artist: <a class="link" href="https://fb.com/notKasichi">Quách Thế Long (Kasichi)</a></p>
+			</div>
+			<br>
+			<div class="div-box reveal">
+				<div class="button" onclick="change_language('VN');">VN</div>
+				<div class="button" onclick="change_language('EN');">EN</div>
+				<div align="left">
+					<div id="div-box-vn-1">
+						<p class="h2-sized">Thông tin cơ bản</p>
+						<li>Tên Thật: Quỳnh</li>
+						<li>Ngày tháng năm sinh: 20/02/2007</li>
+						<li>Giới tính: nữ</li>
+						<p class="h3-sized">Thông tin khác</p>
+						<li>Xu hướng tình dục: Bisexual</li>
+						<li>Tên thường gọi: Mino, Luna</li>
+						<li>Xưng hô: Chị-em, anh-em, cậu-tớ, mình-bạn... (nào cũng đc hết còn riêng mày-tao thì tùy trường họp)</li>
+						<li>Nơi ở hiện tại: Hà Nội, Việt Nam</li>
+						<li>Tính cách: Vui vẻ, dễ tính, thân thiện, lười</li>
+						<li>Yêu thích: Ngủ, vẽ, chơi game, đọc sách</li>
+						<li>Pronouns: She/her, they/them</li>
+						<li>Fandom/Community (bao gồm games): osu!, Pokemon, Furry, AOV, Wild Rift, CS:GO, Valorant, Geometry Dash, PUBG Mobile, SAR, DOOM, Minecraft,...</li>
+					</div>
+					<div id="div-box-en-1">
+						<p class="h2-sized">Basic Infomation</p>
+						<li>Real Name: Quynh</li>
+						<li>Date of birth: 20/02/2007</li>
+						<li>Gender: female</li>
+						<p class="h3-sized">Other Infomation</p>
+						<li>Sexual orientation: Bisexual</li>
+						<li>Friendly Name: Mino, Luna</li>
+						<li>Current residence: Hà Nội, Việt Nam</li>
+						<li>Personality: Fun, easygoing, friendly, lazy</li>
+						<li>Hobbies: Sleeping, drawing, playing games, reading books</li>
+						<li>Pronouns: She/her, they/them</li>
+						<li>Fandom/Community (include games): osu!, Pokemon, Furry, AOV, Wild Rift, CS:GO, Valorant, Geometry Dash, PUBG Mobile, SAR, DOOM, Minecraft,...</li>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="div-box reveal">
+				<div align="center">
+					<div id="div-box-vn-2">
+						<p class="h1-sized">Mạng xã hội</p>
+					</div>
+					<div id="div-box-en-2">
+						<p class="h1-sized">Social Media</p>
+					</div>
+					<div class="inline-box">
+						<div class="social_media_image_circle">
+							<a href="https://twitter.com/MinosukoUwU" class="twitter link">
+								<img src="./assets/images/twitter.png">
+								@MinosukoUwU
+									<br>
+								<br>
+							</a>
+						</div>
+						<div class="social_media_image_circle">
+							<a href="https://t.me/MinosukoUwU" class="telegram link">
+								<img src="./assets/images/telegram.png">
+								Minosuko Luna
+							</a>
+						</div>
+						<div class="social_media_image_circle">
+							<a href="https://twitter.com/MinoTheCatto" class="twitter link">
+								<img src="./assets/images/twitter.png">
+								@MinoTheCatto
+							</a>
+						</div>
+						<br>
+						<br>
+						<div class="social_media_image_circle">
+							<a href="https://fb.com/MinoFoxc" class="facebook link">
+								<img src="./assets/images/facebook.png">
+								Quỳnh Ít On
+							</a>
+						</div>
+						<div class="social_media_image_circle">
+							<a href="https://fb.com/MinosukoLuna" class="facebook link">
+								<img src="./assets/images/facebook.png">
+								Minosuko Luna
+							</a>
+						</div>
+						<div class="social_media_image_circle">
+							<a href="https://www.facebook.com/profile.php?id=100092659752258" class="facebook link">
+								<img src="./assets/images/facebook.png">
+								Tứ Vĩ Bạch Hồ
+							</a>
+						</div>
+						<br>
+						<br>
+						<div class="social_media_image_circle">
+							<a class="discord link">
+								<img src="./assets/images/discord.png">
+								Minosuko#4588
+							</a>
+						</div>
+						<div class="social_media_image_circle">
+							<a onclick="show_zalo()" class="zalo link">
+								<img src="./assets/images/zalo.png">
+								Quỳnh Mino
+							</a>
+						</div>
+						<div class="social_media_image_circle">
+							<a href="https://osu.ppy.sh/users/33654024" class="osu link">
+								<img src="./assets/images/osu.png">
+								TinySnowFox
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="div-box" id="div-zalo-box">
+				<img src="./assets/images/zalo.jpg">
+			</div>
+			<br>
+			<div class="div-box reveal">
+				<p class="h4-sized">Website Email: admin@minosuko.ga</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="./assets/js/script.js"></script>
+	</body>
+</html>
